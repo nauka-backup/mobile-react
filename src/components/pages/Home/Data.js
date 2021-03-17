@@ -9,7 +9,8 @@ export const homeObject1 = {
     linkTo: '/about',
     buttonText: 'learn more',
     imgStart: '',
-    img: './images/svg2-brainstorm.svg',
+    img: './mobile-react/images/svg2-brainstorm.svg',
+
     alt: 'mobile phone',
 };
 export const homeObject2 = {
@@ -23,7 +24,7 @@ export const homeObject2 = {
     linkTo: '/services-list',
     buttonText: 'check it out!',
     imgStart: '',
-    img: './images/svg8-updates.svg',
+    img: './mobile-react/images/svg8-updates.svg',
     alt: 'tabs',
 };
 export const homeObject3 = {
@@ -36,6 +37,6 @@ export const homeObject3 = {
     linkTo: '/products-list',
     buttonText: 'find the one',
     imgStart: '',
-    img: './images/svg3-mobile.svg',
+    img: './mobile-react/images/svg3-mobile.svg',
     alt: 'connection',
 };
