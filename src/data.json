@@ -2,7 +2,7 @@
     "products": [
         {
             "_id": "phone1",
-            "image": "/images/phone1.png",
+            "image": "/mobile-react/images/phone1.png",
             "title": "iPhone 10",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
             "producer": "Apple",
