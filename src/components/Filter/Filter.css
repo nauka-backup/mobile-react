@@ -1,0 +1,27 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #c0c0c0;
+}
+.filter div {
+    flex: 1;
+    margin: 10px;
+}
+@media screen and (max-width: 768px) {
+    .filter {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        border-bottom: none;
+        flex-wrap: wrap;
+    }
+    .filter-result {
+        display: flex;
+        flex-direction: row;
+    }
+    select {
+        margin: 10px;
+    }
+}

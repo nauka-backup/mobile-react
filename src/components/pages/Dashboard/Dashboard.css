@@ -1,0 +1,82 @@
+.hero {
+    width: 100%;
+    min-height: 400px;
+    background: rgb(31, 34, 65);
+}
+.hero-title {
+    color: white;
+}
+
+.hero nav {
+    background: #603bbb;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero nav h2 {
+    color: #fff;
+    margin-right: 15px;
+}
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 60%;
+    min-height: 150px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.user-update {
+    background-color: rgb(236, 221, 83);
+    color: white;
+    height: 45px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    padding: 10px;
+    border-radius: 10px;
+}
+.user-update:hover {
+    background-color: rgb(236, 183, 83);
+}
+.user-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .hero nav {
+        background: #603bbb;
+        width: 100%;
+        padding: 20px 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .user-icons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .user-info {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+}

@@ -1,0 +1,116 @@
+.signup-wrapper {
+    height: 100vh;
+    background-color: #374061;
+    padding-top: 100px;
+}
+.card-container {
+    max-width: 1000px;
+    height: 80%;
+    margin: 0 50px 0 100px;
+    display: flex;
+    flex-direction: row;
+}
+.card-title {
+    margin-bottom: 40px;
+    color: #e9eaec;
+    line-height: 1.5;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-image {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+
+/* ----------------------- */
+
+.registerContainer {
+    width: 500px;
+    height: 400px;
+    padding: 0 20px;
+    display: flex;
+    margin: 0;
+    border-radius: 40px;
+}
+
+.register {
+    padding: 40px;
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(22, 24, 47, 1);
+    box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.8);
+}
+
+.register label {
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.register input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    background: rgba(175, 174, 174, 0.1);
+    color: #fff;
+}
+
+.btnContainer {
+    width: 100%;
+    padding: 20px 0;
+}
+.btnContainer button {
+    margin: 10px;
+}
+
+.btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: #fff;
+}
+
+.btnContainer p span {
+    color: rgb(231, 231, 4);
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .signup-wrapper {
+        height: 100%;
+    }
+    .card-title {
+        margin: 20px;
+        font-size: 20px;
+    }
+    .card-container {
+        margin-left: 10px;
+        flex-direction: column;
+    }
+    .card-image {
+        width: 200px;
+        height: 300px;
+        margin: 50px;
+    }
+    .registerContainer {
+        width: 300px;
+        height: 400px;
+        padding: 0 20px;
+    }
+    .register {
+        padding: 40px;
+        margin: auto;
+        width: 300px;
+        max-height: 300px;
+    }
+}

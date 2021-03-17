@@ -1,0 +1,36 @@
+.google-login {
+    height: 200px;
+    width: 300px;
+}
+
+.btn-google {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    width: 100px;
+}
+
+.login-title {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.btn-logout {
+    margin: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+    .google-login {
+        position: absolute;
+        top: 80px;
+        left: 40px;
+        width: 200px;
+    }
+}

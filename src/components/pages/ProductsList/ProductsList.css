@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header cart'
+        'aside main cart'
+        'aside main cart';
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 200px 1fr;
+    background-color: rgb(55, 64, 97);
+    color: rgb(226, 223, 223);
+    height: 100%;
+    padding: 20px;
+}
+.grid-title {
+    grid-area: header;
+    padding: 10px;
+    text-align: center;
+}
+.filter-container {
+    grid-area: aside;
+    background-color: #e6e6e6;
+    border-radius: 30px;
+    color: #374061;
+    padding: 20px;
+}
+main {
+    grid-area: main;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    flex: 3 200px;
+}
+.sidebar {
+    flex: 1 200px;
+}
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header'
+            'aside aside'
+            'main main';
+    }
+    .content {
+        flex-direction: column-reverse;
+    }
+}

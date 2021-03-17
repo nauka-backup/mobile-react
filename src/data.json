@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "_id": "phone1",
+            "image": "/images/phone1.png",
+            "title": "iPhone 10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
+            "producer": "Apple",
+            "price": 699
+        },
+        {
+            "_id": "phone2",
+            "image": "/images/phone2.jpg",
+            "title": "Huawei Mate 40 Pro",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
+            "producer": "Huawei",
+            "price": 800
+        },
+        {
+            "_id": "phone3",
+            "image": "/images/phone3.png",
+            "title": "Samsung Galaxy S21 Ultra 5G",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
+            "producer": "Samsung",
+            "price": 599
+        },
+        {
+            "_id": "phone4",
+            "image": "/images/phone4.jpg",
+            "title": "Xiaomi Redmi Note 10 Pro",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
+            "producer": "Xiaomi",
+            "price": 750
+        },
+        {
+            "_id": "phone5",
+            "image": "/images/phone5.jpg",
+            "title": "LG WING Gray",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
+            "producer": "LG",
+            "price": 400
+        }
+    ]
+}

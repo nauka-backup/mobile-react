@@ -1,0 +1,32 @@
+.services-hero {
+    width: 100%;
+    height: 500px;
+    background: #374061;
+    padding-top: 100px;
+}
+.service-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 80px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .services-hero {
+        height: 100%;
+        padding-top: 0;
+    }
+    .service-icons {
+        display: flex;
+        flex-direction: column;
+        font-size: 80px;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+    }
+}
