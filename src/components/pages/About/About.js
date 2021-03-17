@@ -17,7 +17,7 @@ const About = () => {
 
             <div className="img-container">
                 <img
-                    src="/images/pexels-buro-millennial-1438072.jpg"
+                    src="./mobile-react/images/pexels-buro-millennial-1438072.jpg"
                     alt="team work"
                 />
             </div>
