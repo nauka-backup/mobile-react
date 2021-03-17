@@ -73,7 +73,7 @@ const Register = () => {
 
                     <div className="card-image">
                         <img
-                            src="images/svg5-love.svg"
+                            src="./mobile-react/images/svg5-love.svg"
                             alt="woman with ballon"
                         />
                     </div>

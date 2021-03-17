@@ -11,7 +11,6 @@
         {
             "_id": "phone2",
             "image": "./mobile-react/images/phone2.jpg",
-
             "title": "Huawei Mate 40 Pro",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
             "producer": "Huawei",
