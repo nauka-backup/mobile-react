@@ -10,7 +10,7 @@
         },
         {
             "_id": "phone2",
-            "image": "/images/phone2.jpg",
+            "image": "./images/phone2.jpg",
             "title": "Huawei Mate 40 Pro",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
             "producer": "Huawei",
@@ -18,7 +18,7 @@
         },
         {
             "_id": "phone3",
-            "image": "/images/phone3.png",
+            "image": "./images/phone3.png",
             "title": "Samsung Galaxy S21 Ultra 5G",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
             "producer": "Samsung",
@@ -26,7 +26,7 @@
         },
         {
             "_id": "phone4",
-            "image": "/images/phone4.jpg",
+            "image": "./images/phone4.jpg",
             "title": "Xiaomi Redmi Note 10 Pro",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
             "producer": "Xiaomi",
@@ -34,7 +34,7 @@
         },
         {
             "_id": "phone5",
-            "image": "/images/phone5.jpg",
+            "image": "./images/phone5.jpg",
             "title": "LG WING Gray",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis sem felis, vitae mollis enim viverra id. Aliquam arcu ex, maximus vel ornare sed, mollis eget ligula. Vestibulum dictum velit et odio lobortis egestas. ",
             "producer": "LG",
